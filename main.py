@@ -1,7 +1,6 @@
 import discord
 from discord.ext import commands
 import os
-token = 'MTAwMzM2MzgyNDQ5OTQzNzc4MA.GApgIF.f1YkiPaZ2jqT3N4LwVD3so2XqSuAufJLyjeF2A'
 client = commands.Bot(command_prefix= '.', intents = discord.Intents.default())
 
 @client.event
